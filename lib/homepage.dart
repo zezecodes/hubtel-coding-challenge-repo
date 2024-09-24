@@ -17,6 +17,7 @@ class Homepage extends StatelessWidget {
                 icon: Icon(
                   Icons.home,
                   size: 40,
+                  color: Colors.green,
                 ),
                 label: ''),
             BottomNavigationBarItem(

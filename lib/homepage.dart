@@ -103,7 +103,13 @@ class Homepage extends StatelessWidget {
                                   ),
                                   child: const Row(
                                     children: [
+                                      SizedBox(
+                                        width: 10,
+                                      ),
                                       Icon(Icons.search),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
                                       Text('Search'),
                                     ],
                                   ),
